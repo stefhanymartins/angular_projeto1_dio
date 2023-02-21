@@ -8,7 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
   @Input() imgCover: string =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png';
-  @Input() cardTitle: string = 'Jesus é o caminho!';
+  @Input() cardTitle: string = '';
+  @Input() id: string = '0';
 
   constructor() {}
 

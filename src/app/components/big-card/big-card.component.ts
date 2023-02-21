@@ -7,9 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
   @Input() imgCover: string =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png';
-  @Input() cardTitle: string = 'Dios es el bien más precioso';
-  @Input() cardDescription: string = 'los últimos serán primero';
+    'https://cdn.videvo.net/videvo_files/video/premium/getty_108/thumbnails/istock-649829348_small.jpg';
+  @Input() cardTitle: string = '';
+  @Input() cardDescription: string =
+    'La magnífica historia de la creación reveló la creatividad de Dios, su majestad y su amor. Sin embargo, el acto más aleccionador, desconcertante e impresionante tuvo lugar cuando Dios sopló el aliento de vida a la humanidad.';
+  @Input() id: string = '0';
 
   constructor() {}
 

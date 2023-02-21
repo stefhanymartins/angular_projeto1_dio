@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./menu-title.component.css'],
 })
 export class MenuTitleComponent implements OnInit {
-  @Input() title: string = 'A BIBLÍA';
+  @Input() title: string = 'LA BIBLIA';
 
   constructor() {}
 
